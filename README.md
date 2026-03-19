@@ -1,65 +1,82 @@
 # 📊 Análise Financeira Pessoal com Python
 
 ## 📌 Sobre o projeto
-Este projeto tem como objetivo analisar dados financeiros pessoais, identificando padrões de gastos, distribuição de despesas e oportunidades de economia.
+Este projeto realiza uma análise de dados financeiros pessoais com o objetivo de entender padrões de consumo, distribuição de gastos e identificar oportunidades de economia.
 
-A proposta é aplicar conceitos iniciais de análise de dados utilizando Python, com foco em organização, exploração e interpretação de informações financeiras do dia a dia.
+Os dados representam despesas reais mensais, organizadas por categoria, permitindo uma análise prática utilizando Python.
 
 ---
 
 ## 🎯 Objetivos
-- Organizar dados financeiros mensais (receitas e despesas)
+- Organizar e estruturar dados financeiros
 - Analisar gastos por categoria
+- Calcular total de despesas
 - Identificar padrões de consumo
-- Calcular saldo mensal
-- Gerar insights para melhorar o controle financeiro
+- Gerar insights para tomada de decisão financeira
 
 ---
 
-## 🗂️ Estrutura dos dados
-Os dados utilizados incluem informações como:
+## 🗂️ Estrutura do projeto
 
-- Renda mensal
-- Gastos com transporte
-- Alimentação
-- Contas fixas (luz, internet, etc.)
-- Academia (jiu-jitsu)
-- Educação (faculdade e cursos)
+analise-financeira-pessoal/  
+├── dados.csv  
+├── analise.py  
+└── README.md  
+
+---
+
+## 📊 Dados utilizados
+O conjunto de dados contém despesas mensais organizadas por categoria:
+
+- Transporte  
+- Jiu-jitsu  
+- Luz  
+- Faculdade  
+- Curso  
+- Internet  
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 - Python
 - Pandas
-- (Opcional) Matplotlib / Seaborn
 
 ---
 
 ## 📈 Análises realizadas
-- Soma total de despesas
-- Gastos por categoria
-- Percentual de gastos
-- Saldo mensal
-- Identificação dos maiores custos
+- Leitura e manipulação de dados com Pandas  
+- Cálculo do total de gastos  
+- Cálculo percentual por categoria  
+- Identificação do maior gasto mensal  
 
 ---
 
-## 💡 Insights esperados
-- Quais categorias consomem maior parte da renda
-- Possíveis cortes ou ajustes no orçamento
-- Potencial de economia mensal
+## 💡 Principais insights
+- Identificação das categorias com maior impacto financeiro  
+- Visualização da distribuição de gastos  
+- Apoio na tomada de decisão para redução de despesas  
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Instalar dependência:
+pip install pandas
+
+2. Executar:
+python analise.py
 
 ---
 
 ## 🚀 Próximos passos
-- Adicionar visualizações gráficas
-- Criar dashboard interativo (Streamlit)
-- Automatizar entrada de dados
+- Adicionar visualizações gráficas  
+- Criar dashboard interativo com Streamlit  
+- Automatizar entrada de dados  
 
 ---
 
 ## 📎 Status do projeto
-🚧 Em desenvolvimento
+✅ Concluído (versão inicial)
 
 ---
 
